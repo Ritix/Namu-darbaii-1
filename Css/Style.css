@@ -1,0 +1,12 @@
+.block{
+    background-color: #ff9ea6;
+}
+
+.block .title{
+    color: #0003ff
+}
+
+.block .text{
+    color: #00ff23;
+    font-size: 16px;
+}
