@@ -1,77 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Registracija</title>
-</head>
-<body>
-    <div>
-        <h3>Meniu</h3>
-        <li><a href="index.html" target="_blank">Pagrindinis</a></li>
-        <li><a href="Registracija.html" target="_blank">Registracija</a></li>
-        <li><a href="Prisijungti.html" target="_blank">Prisijungti</a></li>
-        <li><a href="Kontaktai.html" target="_blank">Kontaktai</a></li>
-        <li><a href="Galerija.html" target="_blank">Galerija</a></li>
-        <li><a href="Apie%20mane.html" target="_blank">Apie mane</a></li>
-    </div>
-    <div>
-        <p>Registracijos forma</p>
-        <form method="get">
-            <label for="Vardas">Vardas</label>:<br>
-            <input type="text" name="Vardas" placeholder="Įveskite vardą" id="Vardas">
-            <br />
-            <label>Pavardė</label>:<br>
-            <input type="text" name="Pavardė" placeholder="Įveskite pavardę" id="Pavardė">
-            <br />
-            <label>El. Paštas</label>:<br>
-            <input type="text" name="El. Paštas" placeholder="Įveskite El. Paštą" id="El. Paštas">
-            <br />
-            <label>Slaptažodis</label>:<br>
-            <input type="text" name="Slaptažodis" placeholder="Įveskite slaptažodį" id="Slaptažodis">
-            <br />
-            <label>Pakartotinas slaptažodis</label>:<br>
-            <input type="text" name="Pakartotinas slaptažodis" placeholder="Įveskite pakartotiną slaptažodį" id="Pakartotinas slaptažodis">
-            <br />
-            <label>Tel. numeris</label>:<br>
-            <input type="text" name="Tel. numeris" placeholder="Įveskite tel. numerį" id="Tel. numeris">
-            <br />
-            <label>Lytis</label>:<br>
-            <input type="radio" name="Lytis" value="Vyras"> Vyras<br>
-            <input type="radio" name="Lytis" value="Moteris"> Moteris<br>
-            <br />
-            <label>Gimimo data</label>:<br>
-            <input type="text" name="Gimimo data" placeholder="Įveskite gimimo datą" id="Gimimo data">
-            <br />
-            <label>Gyvenamosios vietos adresas</label>:<br>
-            <input type="text" name="Gyvenamosios vietos adresas" placeholder="Įveskite gyvenamosios vietos adresą" id="Gyvenamosios vietos adresas">
-            <br />
-            <label>Pašto kodas</label>:<br>
-            <input type="text" name="Pašto kodas" placeholder="Įveskite pašto kodą" id="Pašto kodas">
-            <br />
-            <label for="pasirinkimas">Pasirinkite šalį</label>
-            <br />
-            <select id="pasirinkimas" name="pasrinkimas">
-                <option value="Lietuva">Lietuva</option>
-                <option value="Lenkija">Lenkija</option>
-                <option value="Latvija">Latvija</option>
-                <option value="Vokietija">Vokietija</option>
-            </select>
-            <br>
-            <label for="pasirinkimas">Pasirinkite miestą</label>
-            <br>
-            <select id="pasirinkimas" name="pasirinkimas">
-                <option value="Kaunas">Kaunas</option>
-                <option value="Vilnius">Vilnius</option>
-                <option value="Panėvežys">Panėvežys</option>
-                <option value="Klaipėda">Klaipėda</option>
-            </select>
-            <br>
-            <label for="Komentaras">Komentaras</label>
-            <br>
-            <textarea name="Komentaras" id="komentaras" rows="5" cols="30" placeholder="Įveskite komentarą"></textarea>
-            <br>
-            <input type="submit" value="Siųsti">
-        </form>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registracija</title>
+        <link href="Css/Style.css" type="text/css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div class="block">
+            <div class="title">
+                <h3>Meniu</h3>
+            </div>
+                <li><a href="index.html" target="_blank">Pagrindinis</a></li>
+                <li><a href="Registracija.html" target="_blank">Registracija</a></li>
+                <li><a href="Prisijungti.html" target="_blank">Prisijungti</a></li>
+                <li><a href="Kontaktai.html" target="_blank">Kontaktai</a></li>
+                <li><a href="Galerija.html" target="_blank">Galerija</a></li>
+                <li><a href="Apie%20mane.html" target="_blank">Apie mane</a></li>
+        </div>
+        <div class="block">
+        <div class="text">
+            <p>Registracijos forma</p>
+            <form method="get">
+                <label for="Vardas">Vardas</label>:<br>
+                <input type="text" name="Vardas" placeholder="Įveskite vardą" id="Vardas">
+                <br />
+                <label>Pavardė</label>:<br>
+                <input type="text" name="Pavardė" placeholder="Įveskite pavardę" id="Pavardė">
+                <br />
+                <label>El. Paštas</label>:<br>
+                <input type="text" name="El. Paštas" placeholder="Įveskite El. Paštą" id="El. Paštas">
+                <br />
+                <label>Slaptažodis</label>:<br>
+                <input type="text" name="Slaptažodis" placeholder="Įveskite slaptažodį" id="Slaptažodis">
+                <br />
+                <label>Pakartotinas slaptažodis</label>:<br>
+                <input type="text" name="Pakartotinas slaptažodis" placeholder="Įveskite pakartotiną slaptažodį" id="Pakartotinas slaptažodis">
+                <br />
+                <label>Tel. numeris</label>:<br>
+                <input type="text" name="Tel. numeris" placeholder="Įveskite tel. numerį" id="Tel. numeris">
+                <br />
+                <label>Lytis</label>:<br>
+                <input type="radio" name="Lytis" value="Vyras"> Vyras<br>
+                <input type="radio" name="Lytis" value="Moteris"> Moteris<br>
+                <br />
+                <label>Gimimo data</label>:<br>
+                <input type="text" name="Gimimo data" placeholder="Įveskite gimimo datą" id="Gimimo data">
+                <br />
+                <label>Gyvenamosios vietos adresas</label>:<br>
+                <input type="text" name="Gyvenamosios vietos adresas" placeholder="Įveskite gyvenamosios vietos adresą" id="Gyvenamosios vietos adresas">
+                <br />
+                <label>Pašto kodas</label>:<br>
+                <input type="text" name="Pašto kodas" placeholder="Įveskite pašto kodą" id="Pašto kodas">
+                <br />
+                <label for="pasirinkimas">Pasirinkite šalį</label>
+                <br />
+                <select id="pasirinkimas" name="pasrinkimas">
+                    <option value="Lietuva">Lietuva</option>
+                    <option value="Lenkija">Lenkija</option>
+                    <option value="Latvija">Latvija</option>
+                    <option value="Vokietija">Vokietija</option>
+                </select>
+                <br>
+                <label for="pasirinkimas">Pasirinkite miestą</label>
+                <br>
+                <select id="pasirinkimas" name="pasirinkimas">
+                    <option value="Kaunas">Kaunas</option>
+                    <option value="Vilnius">Vilnius</option>
+                    <option value="Panėvežys">Panėvežys</option>
+                    <option value="Klaipėda">Klaipėda</option>
+                </select>
+                <br>
+                <label for="Komentaras">Komentaras</label>
+                <br>
+                <textarea name="Komentaras" id="komentaras" rows="5" cols="30" placeholder="Įveskite komentarą"></textarea>
+                <br>
+                <input type="submit" value="Siųsti">
+            </form>
+            </div>
+        </div>
+    </body>
 </html>
