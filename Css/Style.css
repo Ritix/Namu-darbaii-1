@@ -1,12 +1,45 @@
-.block{
+.block {
     background-color: #ff9ea6;
 }
 
-.block .title{
+.block .title {
     color: #0003ff
 }
 
-.block .text{
+.block .text {
     color: #00ff23;
     font-size: 16px;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.floating-box {
+    float: left;
+    width: 167px;
+    height: 18px;
+    margin: 4px;
+    border: 3px solid #73AD21;
+    background-color: #51ffab;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    text-align: justify;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    background-color: #ff9ea6;
 }
